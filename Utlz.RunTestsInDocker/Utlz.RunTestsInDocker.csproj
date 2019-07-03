@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="[2.5.0,)" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="[3.0.0,)" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Utlz.Helpers\Utlz.Helpers.csproj" />
+      <ProjectReference Include="..\Utlz.Logging.Serilog\Utlz.Logging.Serilog.csproj" />
+    </ItemGroup>
+
+</Project>
